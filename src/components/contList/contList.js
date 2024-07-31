@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/dialog"
 import pencilIcon from "../../../public/svg/pencil.svg";
 import Image from "next/image";
+
 export function DialogDemo({getListComponent, setGetListComponent}) {
   return (
     <Dialog defaultOpen>
@@ -16,7 +17,7 @@ export function DialogDemo({getListComponent, setGetListComponent}) {
         <DialogHeader>
           <DialogTitle>Edit files</DialogTitle>
           <DialogDescription>
-            Make changes to your files here. Click save when you're done.
+            Make changes to your files here. Click save when you&apos;re done.
           </DialogDescription>
         </DialogHeader>
         <form className="grid gap-4 py-4">
