@@ -50,7 +50,7 @@ function CardImg({getErrorFile, setGetErrorFile, getErrorFileMs, setGetErrorFile
                 <p>Max file size: 5MB</p>
                 </>
             ) : (
-                <img className='w-full h-64 object-cover min-h-64' src={URL.createObjectURL(getFileBlob)} alt='image'/>
+                <Image className='w-full h-64 object-cover min-h-64' width={100} height={100} src={URL.createObjectURL(getFileBlob)} alt='image'/>
             )}
         </div>
         <form onSubmit={handleSubmit}>

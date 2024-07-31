@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import {
   Dialog,
   DialogContent,
@@ -9,7 +8,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import pencilIcon from "../../../public/svg/pencil.svg";
-
+import Image from "next/image";
 export function DialogDemo({getListComponent, setGetListComponent}) {
   return (
     <Dialog defaultOpen>
@@ -28,7 +27,7 @@ export function DialogDemo({getListComponent, setGetListComponent}) {
                 <div className="flex items-center w-full justify-between">
                   <h1 className="text-2xl font-semibold">Logo Oblicua.png</h1>
                   <button>
-                    <img src={pencilIcon.src} alt="edit name"/>
+                    <Image src={pencilIcon.src} width={24} height={24} alt="edit name"/>
                   </button>
                 </div>
                 <div className="flex items-center gap-3">
@@ -44,7 +43,7 @@ export function DialogDemo({getListComponent, setGetListComponent}) {
                 <div className="flex items-center w-full justify-between">
                   <h1 className="text-2xl font-semibold">Logo Oblicua.png</h1>
                   <button>
-                    <img src={pencilIcon.src} alt="edit name"/>
+                    <Image src={pencilIcon.src} width={24} height={24} alt="edit name"/>
                   </button>
                 </div>
                 <div className="flex items-center gap-3">
