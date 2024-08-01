@@ -4,7 +4,7 @@ llame a una API de terceros (example.com) cuando la carga tenga éxito
 llame a una API de terceros (example.com) cuando la carga falle
 [✅]Si el archivo es >5MB, muestre un modal que rechace
 [✅]Una vez completada la carga, muestre una lista de enlaces de todos los archivos cargados de modo que pueda descargarlos nuevamente.
-[]Coloque un icono de lápiz en cada enlace de la lista para cambiar el nombre del archivo. Se debe abrir un modal con los botones Guardar y Cancelar para cambiar el nombre.
+[✅]Coloque un icono de lápiz en cada enlace de la lista para cambiar el nombre del archivo. Se debe abrir un modal con los botones Guardar y Cancelar para cambiar el nombre.
 [✅]Mostrar un esqueleto en lugar de la lista de archivos cuando la lista todavía se está cargando.
 [✅]agregue un retraso falso si se carga demasiado rápido solo para mostrar el efecto.
 [✅]Coloque un icono de papelera junto a cada enlace de la lista para que pueda eliminarlo.
