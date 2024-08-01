@@ -8,7 +8,7 @@ function Main({response}) {
     const {getErrorFile, getListComponent, blobs, setBlobs} = useContext(AppContext);
     useEffect(()=>{
       setBlobs(response.blobs)
-    },[response.blobs])
+    },[setBlobs, response.blobs])
     return (
     <>
       {getErrorFile && (
