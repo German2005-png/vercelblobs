@@ -9,7 +9,7 @@ llame a una API de terceros (example.com) cuando la carga falle
 [✅]agregue un retraso falso si se carga demasiado rápido solo para mostrar el efecto.
 [✅]Coloque un icono de papelera junto a cada enlace de la lista para que pueda eliminarlo.
 [✅]Asegúrese de que haya límites de error en caso de errores y muestre algún tipo de error UI.
-[]Cuando actualiza toda la página, todo el estado debe persistir.
+[✅]Cuando actualiza toda la página, todo el estado debe persistir.
 
 Bibliotecas:
 
@@ -23,5 +23,5 @@ Escriba una breve documentación como Readme.md en la raíz para marcar cualquie
 
 Entregables
 
-Comparta el repositorio git con evaluaciones@hiredigital.com
-Compartir enlace a la implementación de vercel
+[✅]Comparta el repositorio git con evaluaciones@hiredigital.com
+[✅]Compartir enlace a la implementación de vercel

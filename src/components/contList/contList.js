@@ -15,7 +15,7 @@ import { Skeleton } from "../ui/skeleton";
 import { useContext, useState } from "react";
 import { AppContext } from "@/app/context/appContext";
 
-export function DialogDemo({ }) {
+export function DialogDemo({ editText, setEditText }) {
   const [isLoading, setIsLoading] = useState(false);
   const {blobs, setBlobs} = useContext(AppContext);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -87,7 +87,7 @@ export function DialogDemo({ }) {
                             }>
                             <Image src={trashIcon.src} width={24} height={24} alt="trash"/>
                           </button>
-                          <button type="button">
+                          <button type="button" onClick={()=> setEditText(Element.pathname)}>
                             <Image src={pencilIcon.src} width={24} height={24} alt="edit name"/>
                           </button>
                         </div>
