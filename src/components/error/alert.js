@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -9,8 +9,10 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
+import { AppContext } from "@/app/context/appContext";
 
-export function AlertDialogDemo({getErrorFile, setGetErrorFile, getErrorFileMs, setGetErrorFileMs}) {
+export function AlertDialogDemo() {
+  const {getErrorFile, setGetErrorFile, getErrorFileMs, setGetErrorFileMs} = useContext(AppContext);
   const [open, setOpen] = useState(true);
 
   const handleContinue = () => {
